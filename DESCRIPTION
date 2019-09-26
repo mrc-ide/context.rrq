@@ -1,0 +1,15 @@
+Package: context.rrq
+Title: Use 'rrq' With Context
+Version: 0.0.1
+Authors@R:
+    person(given = "Rich",
+           family = "FitzJohn",
+           role = c("aut", "cre"),
+           email = "rich.fitzjohn@gmail.com")
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat
+RoxygenNote: 6.1.1

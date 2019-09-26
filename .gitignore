@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+tests/testthat/contexts
+tests/testthat/*.log
+tests/testthat/logs
+rrq_*.tar.gz
+extra/benchmark.html
+extra/benchmark.md
+extra/figure

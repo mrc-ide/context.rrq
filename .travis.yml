@@ -1,0 +1,21 @@
+language: R
+sudo: false
+cache: packages
+r_packages:
+  - covr
+after_success:
+  - Rscript -e 'covr::codecov()'
+
+addons:
+  apt:
+    packages:
+      - libhiredis-dev
+      - redis-server
+
+services:
+  - redis-server
+
+r_github_packages:
+  - mrc-ide/context
+  - mrc-ide/queuer
+  - richfitz/heartbeatr
